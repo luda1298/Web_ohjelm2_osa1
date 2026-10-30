@@ -1,0 +1,76 @@
+/* Navigation */
+.navbar {
+  background-color: #102d45 !important;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: 0.3px;
+}
+
+.nav-link {
+  font-weight: 500;
+}
+
+/* Athlete cards */
+.card {
+  border: 1px solid #e0e7ef;
+  border-radius: 14px;
+  overflow: hidden;
+  transition: box-shadow 0.2s ease;
+}
+
+.card:hover {
+  box-shadow: 0 8px 24px rgba(16, 45, 69, 0.12);
+}
+
+.card-img-top {
+  height: 220px;
+  object-fit: cover;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #102d45;
+}
+
+/* Forms */
+.form-control {
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: #4e83ba;
+  box-shadow: 0 0 0 0.2rem rgba(78, 131, 186, 0.15);
+}
+
+/* Buttons */
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+.btn-primary {
+  background-color: #205b91;
+  border-color: #205b91;
+}
+
+.btn-primary:hover {
+  background-color: #17466f;
+  border-color: #17466f;
+}
+
+/* Responsive layout */
+@media (max-width: 576px) {
+  .card-img-top {
+    height: 190px;
+  }
+
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+}
